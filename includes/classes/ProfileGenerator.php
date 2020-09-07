@@ -35,8 +35,8 @@
             $coverPhotoSrc = $this->profileData->getCoverPhoto();
             $name = $this->profileData->getProfileUserFullName();
             return "<div class='coverPhotoContainer'>
+                        <span class='channelName'>$name</span>
                         <img src='$coverPhotoSrc' class='coverPhoto'>
-                        <div class='channelName'>$name</div>
                     </div>";
         }
 

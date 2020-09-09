@@ -24,8 +24,8 @@
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       
-      <div class="modal-body">
-        Please wait. This might take a while.
+      <div class="modal-body content-center">
+        <p>Please wait. This might take a while.</p>
         <img src="assets/images/icons/loading-spinner.gif">
       </div>
       

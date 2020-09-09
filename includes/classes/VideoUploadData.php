@@ -25,33 +25,27 @@
             return $query->execute();
         }
 
-        public function getVideoDataArray()
-        {
+        public function getVideoDataArray() {
             return $this->videoDataArray;
         }
 
-        public function getTitle()
-        {
+        public function getTitle() {
             return $this->title;
         }
 
-        public function getDescription()
-        {
+        public function getDescription() {
             return $this->description;
         }
 
-        public function getPrivacy()
-        {
+        public function getPrivacy() {
             return $this->privacy;
         }
 
-        public function getCategory()
-        {
+        public function getCategory() {
             return $this->category;
         }
 
-        public function getUploadedBy()
-        {
+        public function getUploadedBy() {
             return $this->uploadedBy;
         }
     }

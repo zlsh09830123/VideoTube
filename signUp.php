@@ -52,7 +52,7 @@
         <div class="column">
 
             <div class="header">
-                <img src="assets/images/icons/VideoTubeLogo.png" title="Home" alt="Site logo">
+                <a href="index.php"><img src="assets/images/icons/VideoTubeLogo.png" title="Home" alt="Site logo"></a>
                 <h3>Sign Up</h3>
                 <span>to continue to VideoTube</span>
             </div>

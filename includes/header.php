@@ -2,11 +2,11 @@
     require_once("config.php");
     require_once("classes/ButtonProvider.php");
     require_once("classes/User.php");
-    require_once("includes/classes/Video.php");
-    require_once("includes/classes/VideoGrid.php");
-    require_once("includes/classes/VideoGridItem.php");
-    require_once("includes/classes/SubscriptionsProvider.php");
-    require_once("includes/classes/NavigationMenuProvider.php");
+    require_once("classes/Video.php");
+    require_once("classes/VideoGrid.php");
+    require_once("classes/VideoGridItem.php");
+    require_once("classes/SubscriptionsProvider.php");
+    require_once("classes/NavigationMenuProvider.php");
     
     $usernameLoggedIn = User::isLoggedIn() ? $_SESSION["userLoggedIn"] : "";
     $userLoggedInObj = new User($con, $usernameLoggedIn);

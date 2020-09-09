@@ -42,6 +42,10 @@
                                 </div>";
         }
     }
+
+    if(isset($_POST["deleteButton"])) {
+        
+    }
 ?>
 <script src="assets/js/editVideoActions.js"></script>
 <div class="editVideoContainer column">

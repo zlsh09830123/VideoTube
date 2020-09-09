@@ -6,13 +6,11 @@
         private $sizeLimit = 100000000;
         private $allowedTypes = ["mp4", "flv", "webm", "vob", "ogv", "ogg", "avi", "wmv", "mov", "mpeg", "mpg"];
 
-        public function __construct($con)
-        {
+        public function __construct($con) {
             $this->con = $con;
         }
 
-        public function upload($videoUploadData)
-        {
+        public function upload($videoUploadData) {
             $targetDir = "uploads/videos/";
             $videoData = $videoUploadData->getVideoDataArray();
 
@@ -53,8 +51,7 @@
             }
         }
 
-        private function processData($videoData, $filePath)
-        {
+        private function processData($videoData, $filePath) {
             $videoType = pathInfo($filePath, PATHINFO_EXTENSION);
 
             if(!$this->isValidSize($videoData)) {

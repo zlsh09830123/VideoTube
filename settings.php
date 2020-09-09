@@ -44,16 +44,16 @@
 
         if($account->updatePassword($oldPassword, $newPassword, $newPassword2, $userLoggedInObj->getUsername())) {
             $passwordMessage = "<div class='alert alert-success'>
-                            <strong>SUCCESS!</strong> Password updated successfully!
-                        </div>";
+                                    <strong>SUCCESS!</strong> Password updated successfully!
+                                </div>";
         } else {
             $errorMessage = $account->getFirstError();
 
             if($errorMessage == "") $errorMessage = "Something went wrong";
 
             $passwordMessage = "<div class='alert alert-danger'>
-                            <strong>ERROR!</strong> $errorMessage
-                        </div>";
+                                    <strong>ERROR!</strong> $errorMessage
+                                </div>";
         }
     }
 ?>
